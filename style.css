@@ -1,0 +1,48 @@
+
+.fondo-titulo{
+    background-color: blueviolet;
+    color:white;
+    font-size: 20px;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    text-align: center;
+}
+
+table {
+    background-color: green; 
+    color:white;
+}
+
+.estudio {
+    font-family: "Arial";
+}
+
+.resaltado{
+    font-family:"Tahoma";
+}
+
+.cursiva{
+    font-family: cursive;
+}
+
+.color-titulo-tabla{
+    color: red;
+}
+
+
+
+td{
+    color:black;
+}
+
+li {
+    font-size: 25px;
+}
+
+.azul{
+    color: blue;
+}
+
+.underlined {
+    text-decoration: underline;
+}
