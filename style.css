@@ -29,20 +29,15 @@ table {
     color: red;
 }
 
-
-
 td{
     color:black;
 }
 
-li {
-    font-size: 25px;
+.espacio{
+    margin-top: 50px;
 }
 
-.azul{
-    color: blue;
-}
-
-.underlined {
-    text-decoration: underline;
+#textoInput{
+    width: 220px; 
+    height: 20px;
 }

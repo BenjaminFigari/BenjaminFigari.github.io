@@ -48,18 +48,27 @@
             <td>Nulo</td>
         </tr>
         <tr>
+        </tr>
+        <tr id="englishRow">
             <td>English</td>
-            <td>Medio</td>
+            <td class="medio">Medio</td>
         </tr>
         <tr>
             <td>Spanish</td>
             <td class="resaltado">Nativo</td>
         </tr>
     </table>
-    
-    <button class="espacio",type="button">Botón</button>
-    <label for="Cuadro de texto">Escriba aquí lo que quire cambiar:</label>
-    <input type="text" id="Cuadro de Texto" name="Cuadro de texto">
-    
+
+    <h2>Actualizar texto pulsando botón:</h2>
+    <input type="text" id="textoInput" placeholder="Ingrese el texto que quiere cambiar">
+    <button onclick="actualizarTexto()">Pulsar para actualizar Sección</button>
+
+    <script>
+        function actualizarTexto() {
+            var nuevoTexto = document.getElementById("textoInput").value;
+            document.querySelector('#englishRow .medio').textContent = nuevoTexto;
+        }
+    </script>
+
 </body>
 </html>
