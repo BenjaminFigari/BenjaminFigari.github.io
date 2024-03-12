@@ -11,6 +11,7 @@
 table {
     background-color: green; 
     color:white;
+    border: 1px solid black;
 }
 
 .estudio {
@@ -31,6 +32,7 @@ table {
 
 td{
     color:black;
+    border: 1px solid black;
 }
 
 .espacio{
