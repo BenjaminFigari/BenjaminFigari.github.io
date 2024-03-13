@@ -4,11 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Laboratorio 1</title>
-</head>
     <link rel="stylesheet" href="style.css">
+</head>
 <body>
     <h1>Benjamin Figari Troncoso</h1>
-    <p class="estudio">Ingeniería Civil Industrial</p></p>
+    <p class="estudio">Ingeniería Civil Industrial</p>
     <p><b>Año de ingreso a la carrera:</b> 2020</p>
     <a href="https://github.com/BenjaminFigari/BenjaminFigari.github.io">Link GitHub</a>
     <p class="cursiva"><b>Resumen personal:</b> Alumno de cuarto año de Ingeniería civil industrial, 
@@ -47,8 +47,6 @@
             <td>Ruby</td>
             <td>Nulo</td>
         </tr>
-        <tr>
-        </tr>
         <tr id="englishRow">
             <td>English</td>
             <td class="medio">Medio</td>
@@ -62,13 +60,14 @@
     <h2>Actualizar texto pulsando botón:</h2>
     <input type="text" id="textoInput" placeholder="Ingrese el texto que quiere cambiar">
     <button onclick="actualizarTexto()">Pulsar para actualizar</button>
+    <p id="textoActualizable">Texto actualizable</p>
 
     <script>
         function actualizarTexto() {
             var nuevoTexto = document.getElementById("textoInput").value;
             document.querySelector('#englishRow .medio').textContent = nuevoTexto;
+            document.getElementById("textoActualizable").textContent = nuevoTexto;
         }
     </script>
-
 </body>
 </html>
