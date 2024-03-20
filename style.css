@@ -1,6 +1,6 @@
 
 .fondo-titulo{
-    background-color: blueviolet;
+    background-color: #4D5656;
     color:white;
     font-size: 20px;
     margin-top: 70px;
@@ -8,11 +8,11 @@
     text-align: center;
 }
 
-
 table {
-    background-color: green; 
+    background-color: #D7DBDD; 
     color:white;
-    border: 1px solid black;
+    border: 1px solid black; 
+    width: 70%;
 }
 
 .estudio {
@@ -41,6 +41,6 @@ td{
 }
 
 #textoInput{
-    width: 220px; 
+    width: 270px; 
     height: 20px;
 }
